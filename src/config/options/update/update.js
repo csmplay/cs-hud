@@ -50,7 +50,7 @@ export default {
 			this.errorOccuredWhileCheckingForUpdates = false
 
 			try {
-				const response = await fetch('https://api.github.com/repos/drweissbrot/cs-hud/releases/latest')
+				const response = await fetch('https://api.github.com/repos/csmplay/cs-hud/releases/latest')
 				if (! response.ok) throw response
 
 				const release = await response.json()

@@ -26,7 +26,7 @@ fi
 mkdir -p tmp/bin
 git clone --no-hardlinks .. tmp/clone
 
-cp ./tmp/clone/gamestate_integration_drweissbrot_hud.cfg ./tmp/bin/gamestate_integration_drweissbrot_hud.cfg
+cp ./tmp/clone/gamestate_integration_csmplay_hud.cfg ./tmp/bin/gamestate_integration_csmplay_hud.cfg
 
 docker build -t drweissbrot/cs-hud-build .
 

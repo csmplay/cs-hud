@@ -12,13 +12,13 @@ Replace `0.0.0` with the release's version number, and `1970-01-01` with the UTC
 	2. In `changelog.md`, move the entries under the `## [Unreleased]` heading to a new heading `## [0.0.0] - 1970-01-01`. Keep the `## [Unreleased]` heading with no items under it, and follow the line spacing (1 empty line between level 3 headings, 2 empty lines between level 2 headings).
 3. After committing the above changes, run `build/build.sh`. Avoid interacting with the files in `build/tmp`.
 4. Push these changes to GitHub.
-5. [Create a new release](https://github.com/drweissbrot/cs-hud/releases/new).
+5. [Create a new release](https://github.com/csmplay/cs-hud/releases/new).
 	1. Choose `v0.0.0` as the tag (select `Create new tag: v0.0.0 on publish`).
 	2. Title it `v0.0.0`.
 	3. Copy the entries for this release from `changelog.md` into the release description.
 	4. Click `Generate release notes`.
 	5. If applicable, check `Set as the latest release` or `Set as a pre-release`.
-	6. Upload all files from `build/tmp/bin`, including `gamestate_integration_drweissbrot_hud.cfg`.
+	6. Upload all files from `build/tmp/bin`, including `gamestate_integration_csmplay_hud.cfg`.
 6. Publish the release.
 
 

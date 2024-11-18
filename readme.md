@@ -7,10 +7,10 @@ A Free and Customizable Spectator HUD for Your Counter-Strike 2 (and CS:GO) Stre
 The easiest way is to use the pre-packaged binaries, but other options will be available in the future.
 <!-- TODO write, then link to more in-depth guides for running via yarn, docker -->
 
-1. Download [`cs-hud-win.exe`](https://github.com/drweissbrot/cs-hud/releases/latest/download/cs-hud-win.exe) if you're on Windows, or [`cs-hud-linux`](https://github.com/drweissbrot/cs-hud/releases/latest/download/cs-hud-linux) if you're on Linux. You can find more details on the [Releases tab](https://github.com/drweissbrot/cs-hud/releases/latest).
-1. Also download [`gamestate_integration_drweissbrot_hud.cfg`](https://github.com/drweissbrot/cs-hud/releases/latest/download/gamestate_integration_drweissbrot_hud.cfg).
+1. Download [`cs-hud-win.exe`](https://github.com/csmplay/cs-hud/releases/latest/download/cs-hud-win.exe) if you're on Windows, or [`cs-hud-linux`](https://github.com/csmplay/cs-hud/releases/latest/download/cs-hud-linux) if you're on Linux. You can find more details on the [Releases tab](https://github.com/drweissbrot/cs-hud/releases/latest).
+1. Also download [`gamestate_integration_csmplay_hud.cfg`](https://github.com/csmplay/cs-hud/releases/latest/download/gamestate_integration_csmplay_hud.cfg).
 1. Head to your CS2 folder and the `game/csgo/cfg` subdirectory, by default on Windows that is `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg`. You can also find it by opening your Steam library, right-clicking CS2, `Properties...`, `Installed Files`, `Browse...`, and then heading into the `game` directory, then into `csgo`, then `cfg`.
-1. Save `gamestate_integration_drweissbrot_hud.cfg` there.
+1. Save `gamestate_integration_csmplay_hud.cfg` there.
 1. Start CS2 (restart it if you already had it open), and find a match to spectate. You could for example play a demo, or spectate a friend via CSTV.
 1. Now run `cs-hud-win.exe` or `cs-hud-linux`.
 1. Open http://localhost:31982/hud in your favorite browser, and you should see the HUD.
@@ -31,7 +31,7 @@ It'll likely work similarly in alternatives to OBS.
 ### Fullscreen Windowed
 Alternatively, you can use a separate executable to overlay the HUD on top of CS.
 
-1. Download [`cs-hud-win32-x64.zip`](https://github.com/drweissbrot/cs-hud/releases/latest/download/cs-hud-win32-x64.zip) on Windows, or [`cs-hud-linux-x64.tar.gz`](https://github.com/drweissbrot/cs-hud/releases/latest/download/cs-hud-linux-x64.tar.gz) on Linux. Extract all files.
+1. Download [`cs-hud-win32-x64.zip`](https://github.com/csmplay/cs-hud/releases/latest/download/cs-hud-win32-x64.zip) on Windows, or [`cs-hud-linux-x64.tar.gz`](https://github.com/csmplay/cs-hud/releases/latest/download/cs-hud-linux-x64.tar.gz) on Linux. Extract all files.
 1. Run `cs-hud.exe` on Windows, or `cs-hud` on Linux.
 1. Open Counter-Strike, go to the Settings, `Video`, and set the `Display Mode` to `Fullscreen Windowed`.
 1. Find a match to spectate in CS. The HUD should now overlay your screen.
@@ -42,7 +42,7 @@ Alternatively, you can use a separate executable to overlay the HUD on top of CS
 
 ### Does this work with CS2?
 Yes.  
-Everything should work with both CS:GO and CS2. If you spot anything weird, [please open an issue.](https://github.com/drweissbrot/cs-hud/issues)
+Everything should work with both CS:GO and CS2. If you spot anything weird, [please open an issue.](https://github.com/csmplay/cs-hud/issues)
 
 ### Can I use this for my event?
 Yes.  
@@ -76,8 +76,8 @@ Note that changes to the scale factor are only applied after refreshing the HUD.
 If you want to change something else, [have a look at the docs](docs/theming.md).
 
 ### I need help!
-Please [have a look at the docs folder](https://github.com/drweissbrot/cs-hud/tree/master/docs) first.
-If nothing in there helps you, [please open an issue.](https://github.com/drweissbrot/cs-hud/issues)
+Please [have a look at the docs folder](https://github.com/csmplay/cs-hud/tree/master/docs) first.
+If nothing in there helps you, [please open an issue.](https://github.com/csmplay/cs-hud/issues)
 Please don't send me emails asking for help (emails about other things are fine).
 
 
