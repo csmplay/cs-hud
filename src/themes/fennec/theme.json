@@ -1,343 +1,343 @@
 {
-	"parent": "raw",
+  "parent": "raw",
 
-	"options": {
-		"series.name.left": {
-			"type": "string",
-			"section": "Series",
-			"label": "Series Name (left)"
-		},
+  "options": {
+    "series.name.left": {
+      "type": "string",
+      "section": "Series",
+      "label": "Series Name (left)"
+    },
 
-		"series.name.center": {
-			"type": "string",
-			"section": "Series",
-			"label": "Series Name (center)"
-		},
+    "series.name.center": {
+      "type": "string",
+      "section": "Series",
+      "label": "Series Name (center)"
+    },
 
-		"series.name.right": {
-			"type": "string",
-			"section": "Series",
-			"label": "Series Name (right)"
-		},
+    "series.name.right": {
+      "type": "string",
+      "section": "Series",
+      "label": "Series Name (right)"
+    },
 
-		"series.maps.1.name": {
-			"type": "string",
-			"section": "Series: Map 1",
-			"label": "Map 1 Name (including prefix, e.g. `de_cache`)"
-		},
+    "series.maps.1.name": {
+      "type": "string",
+      "section": "Series: Map 1",
+      "label": "Название карты 1 (с префиксом, например: `de_cache`)"
+    },
 
-		"series.maps.1.pickTeam": {
-			"type": "string",
-			"section": "Series: Map 1",
-			"label": "Team that picked Map 1"
-		},
+    "series.maps.1.pickTeam": {
+      "type": "string",
+      "section": "Series: Map 1",
+      "label": "Команда, которая выбрала карту 1"
+    },
 
-		"series.maps.1.isDecider": {
-			"type": "boolean",
-			"section": "Series: Map 1",
-			"label": "If Map 1 is the Decider (for Best of 1s, set this to false)"
-		},
+    "series.maps.1.isDecider": {
+      "type": "boolean",
+      "section": "Series: Map 1",
+      "label": "Карта 1 решающая"
+    },
 
-		"series.maps.1.pickTeamScore": {
-			"type": "number",
-			"section": "Series: Map 1",
-			"label": "Final Score of the team that picked this map"
-		},
+    "series.maps.1.pickTeamScore": {
+      "type": "number",
+      "section": "Series: Map 1",
+      "label": "Финальный результат команды, которая выбрала эту карту"
+    },
 
-		"series.maps.1.enemyTeamScore": {
-			"type": "number",
-			"section": "Series: Map 1",
-			"label": "Final Score of the team that did not pick this map"
-		},
+    "series.maps.1.enemyTeamScore": {
+      "type": "number",
+      "section": "Series: Map 1",
+      "label": "Финальный результат команды, которая НЕ выбрала эту карту"
+    },
 
-		"series.maps.2.name": {
-			"type": "string",
-			"section": "Series: Map 2",
-			"label": "Map 2 Name (including prefix, e.g. `de_cache`)"
-		},
+    "series.maps.2.name": {
+      "type": "string",
+      "section": "Series: Map 2",
+      "label": "Название карты 2 (с префиксом, например: `de_cache`)"
+    },
 
-		"series.maps.2.pickTeam": {
-			"type": "string",
-			"section": "Series: Map 2",
-			"label": "Team that picked Map 2"
-		},
+    "series.maps.2.pickTeam": {
+      "type": "string",
+      "section": "Series: Map 2",
+      "label": "Команда, которая выбрала карту 2"
+    },
 
-		"series.maps.2.isDecider": {
-			"type": "boolean",
-			"section": "Series: Map 2",
-			"label": "If Map 2 is the Decider (for Best of 1s, set this to false)"
-		},
+    "series.maps.2.isDecider": {
+      "type": "boolean",
+      "section": "Series: Map 2",
+      "label": "Карта 2 решающая"
+    },
 
-		"series.maps.2.pickTeamScore": {
-			"type": "number",
-			"section": "Series: Map 2",
-			"label": "Final Score of the team that picked this map"
-		},
+    "series.maps.2.pickTeamScore": {
+      "type": "number",
+      "section": "Series: Map 2",
+      "label": "Финальный результат команды, которая выбрала эту карту"
+    },
 
-		"series.maps.2.enemyTeamScore": {
-			"type": "number",
-			"section": "Series: Map 2",
-			"label": "Final Score of the team that did not pick this map"
-		},
+    "series.maps.2.enemyTeamScore": {
+      "type": "number",
+      "section": "Series: Map 2",
+      "label": "Финальный результат команды, которая НЕ выбрала эту карту"
+    },
 
-		"series.maps.3.name": {
-			"type": "string",
-			"section": "Series: Map 3",
-			"label": "Map 3 Name (including prefix, e.g. `de_cache`)"
-		},
+    "series.maps.3.name": {
+      "type": "string",
+      "section": "Series: Map 3",
+      "label": "Название карты 3 (с префиксом, например: `de_cache`)"
+    },
 
-		"series.maps.3.pickTeam": {
-			"type": "string",
-			"section": "Series: Map 3",
-			"label": "Team that picked Map 3"
-		},
+    "series.maps.3.pickTeam": {
+      "type": "string",
+      "section": "Series: Map 3",
+      "label": "Команда, которая выбрала карту 3"
+    },
 
-		"series.maps.3.isDecider": {
-			"type": "boolean",
-			"section": "Series: Map 3",
-			"label": "If Map 3 is the Decider (for Best of 1s, set this to false)"
-		},
+    "series.maps.3.isDecider": {
+      "type": "boolean",
+      "section": "Series: Map 3",
+      "label": "Карта 3 решающая"
+    },
 
-		"series.maps.3.pickTeamScore": {
-			"type": "number",
-			"section": "Series: Map 3",
-			"label": "Final Score of the team that picked this map"
-		},
+    "series.maps.3.pickTeamScore": {
+      "type": "number",
+      "section": "Series: Map 3",
+      "label": "Финальный результат команды, которая выбрала эту карту"
+    },
 
-		"series.maps.3.enemyTeamScore": {
-			"type": "number",
-			"section": "Series: Map 3",
-			"label": "Final Score of the team that did not pick this map"
-		},
+    "series.maps.3.enemyTeamScore": {
+      "type": "number",
+      "section": "Series: Map 3",
+      "label": "Финальный результат команды, которая НЕ выбрала эту карту"
+    },
 
-		"series.maps.4.name": {
-			"type": "string",
-			"section": "Series: Map 4",
-			"label": "Map 4 Name (including prefix, e.g. `de_cache`)"
-		},
+    "series.maps.4.name": {
+      "type": "string",
+      "section": "Series: Map 4",
+      "label": "Название карты 4 (с префиксом, например: `de_cache`)"
+    },
 
-		"series.maps.4.pickTeam": {
-			"type": "string",
-			"section": "Series: Map 4",
-			"label": "Team that picked Map 4"
-		},
+    "series.maps.4.pickTeam": {
+      "type": "string",
+      "section": "Series: Map 4",
+      "label": "Команда, которая выбрала карту 4"
+    },
 
-		"series.maps.4.isDecider": {
-			"type": "boolean",
-			"section": "Series: Map 4",
-			"label": "If Map 4 is the Decider (for Best of 1s, set this to false)"
-		},
+    "series.maps.4.isDecider": {
+      "type": "boolean",
+      "section": "Series: Map 4",
+      "label": "Карта 4 решающая"
+    },
 
-		"series.maps.4.pickTeamScore": {
-			"type": "number",
-			"section": "Series: Map 4",
-			"label": "Final Score of the team that picked this map"
-		},
+    "series.maps.4.pickTeamScore": {
+      "type": "number",
+      "section": "Series: Map 4",
+      "label": "Финальный результат команды, которая выбрала эту карту"
+    },
 
-		"series.maps.4.enemyTeamScore": {
-			"type": "number",
-			"section": "Series: Map 4",
-			"label": "Final Score of the team that did not pick this map"
-		},
+    "series.maps.4.enemyTeamScore": {
+      "type": "number",
+      "section": "Series: Map 4",
+      "label": "Финальный результат команды, которая НЕ выбрала эту карту"
+    },
 
-		"series.maps.5.name": {
-			"type": "string",
-			"section": "Series: Map 5",
-			"label": "Map 5 Name (including prefix, e.g. `de_cache`)"
-		},
+    "series.maps.5.name": {
+      "type": "string",
+      "section": "Series: Map 5",
+      "label": "Название карты 5 (с префиксом, например: `de_cache`)"
+    },
 
-		"series.maps.5.pickTeam": {
-			"type": "string",
-			"section": "Series: Map 5",
-			"label": "Team that picked Map 5"
-		},
+    "series.maps.5.pickTeam": {
+      "type": "string",
+      "section": "Series: Map 5",
+      "label": "Команда, которая выбрала карту 5"
+    },
 
-		"series.maps.5.isDecider": {
-			"type": "boolean",
-			"section": "Series: Map 5",
-			"label": "If Map 5 is the Decider (for Best of 1s, set this to false)"
-		},
+    "series.maps.5.isDecider": {
+      "type": "boolean",
+      "section": "Series: Map 5",
+      "label": "Карта 5 решающая"
+    },
 
-		"series.maps.5.pickTeamScore": {
-			"type": "number",
-			"section": "Series: Map 5",
-			"label": "Final Score of the team that picked this map"
-		},
+    "series.maps.5.pickTeamScore": {
+      "type": "number",
+      "section": "Series: Map 5",
+      "label": "Финальный результат команды, которая выбрала эту карту"
+    },
 
-		"series.maps.5.enemyTeamScore": {
-			"type": "number",
-			"section": "Series: Map 5",
-			"label": "Final Score of the team that did not pick this map"
-		},
+    "series.maps.5.enemyTeamScore": {
+      "type": "number",
+      "section": "Series: Map 5",
+      "label": "Финальный результат команды, которая НЕ выбрала эту карту"
+    },
 
-		"cvars.cash_team_loser_bonus": {
-			"type": "number",
-			"fallback": 1400,
-			"section": "Cvars",
-			"label": "Value of cash_team_loser_bonus, i.e. the initial loss bonus amount"
-		},
+    "cvars.cash_team_loser_bonus": {
+      "type": "number",
+      "fallback": 1400,
+      "section": "Cvars",
+      "label": "Значение cash_team_loser_bonus (стартовый размер бонуса проигравшей команды)"
+    },
 
-		"cvars.cash_team_loser_bonus_consecutive_rounds": {
-			"type": "number",
-			"fallback": 500,
-			"section": "Cvars",
-			"label": "Value of cash_team_loser_bonus_consecutive_rounds, i.e. the additional loss bonus amount per consecutive round lost"
-		},
+    "cvars.cash_team_loser_bonus_consecutive_rounds": {
+      "type": "number",
+      "fallback": 500,
+      "section": "Cvars",
+      "label": "Значение cash_team_loser_bonus_consecutive_rounds (увеличение бонуса проигравшей команды за каждый проигранный раунд)"
+    },
 
-		"cvars.mp_c4timer": {
-			"type": "number",
-			"fallback": 40,
-			"section": "Cvars",
-			"label": "Value of mp_c4timer, i.e. the number of seconds from when the bomb is planted until it explodes"
-		},
+    "cvars.mp_c4timer": {
+      "type": "number",
+      "fallback": 40,
+      "section": "Cvars",
+      "label": "Значение mp_c4timer (время до взрыва бомбы)"
+    },
 
-		"cvars.mp_roundtime": {
-			"type": "number",
-			"fallback": 1.92,
-			"section": "Cvars",
-			"label": "Value of mp_roundtime, i.e. the default number of minutes a round can take"
-		},
+    "cvars.mp_roundtime": {
+      "type": "number",
+      "fallback": 1.92,
+      "section": "Cvars",
+      "label": "Значение mp_roundtime (длительность раунда)"
+    },
 
-		"cvars.mp_team_timeout_max": {
-			"type": "number",
-			"fallback": 4,
-			"section": "Cvars",
-			"label": "Value of mp_team_timeout_max, i.e. the number of tactical timeouts available per team"
-		},
+    "cvars.mp_team_timeout_max": {
+      "type": "number",
+      "fallback": 4,
+      "section": "Cvars",
+      "label": "Значение mp_team_timeout_max (максимальное количество тактических таймаутов у команд)"
+    },
 
-		"cvars.mp_team_timeout_time": {
-			"type": "number",
-			"fallback": 30,
-			"section": "Cvars",
-			"label": "Value of mp_team_timeout_time, i.e. the duration in seconds of each tactical timeout"
-		},
+    "cvars.mp_team_timeout_time": {
+      "type": "number",
+      "fallback": 30,
+      "section": "Cvars",
+      "label": "Значение mp_team_timeout_time (длительность каждого тактического таймаута)"
+    },
 
-		"cvars.mp_freezetime": {
-			"type": "number",
-			"fallback": 20,
-			"section": "Cvars",
-			"label": "Value of mp_freezetime, i.e. the duration in seconds of each freezetime"
-		},
+    "cvars.mp_freezetime": {
+      "type": "number",
+      "fallback": 20,
+      "section": "Cvars",
+      "label": "Значение mp_freezetime (длительность каждого таймфриза)"
+    },
 
-		"preferences.playersAlive.showDuringFreezetime": {
-			"type": "boolean",
-			"section": "Preferences",
-			"label": "Show \"Players Alive\" during freezetime"
-		},
+    "preferences.playersAlive.showDuringFreezetime": {
+      "type": "boolean",
+      "section": "Preferences",
+      "label": "Отображать \"Живые игроки\" во время таймфриза"
+    },
 
-		"preferences.sidebar.teamGrenades.hideDuringRound": {
-			"type": "boolean",
-			"section": "Preferences",
-			"label": "Hode Team Grenades panels in sidebars during the round (if no, will only show during freezetimes, and the first few seconds of the round (defined in preferences.sidebar.teamGrenades.activeIntoRoundSec))"
-		},
+    "preferences.sidebar.teamGrenades.hideDuringRound": {
+      "type": "boolean",
+      "section": "Preferences",
+      "label": "Скрыть панель гранат во время раунда (если нет, показывается во время таймфриза, и первые несколько секунд раунда"
+    },
 
-		"preferences.sidebar.teamGrenades.activeIntoRoundSec": {
-			"type": "number",
-			"fallback": 5,
-			"section": "Preferences",
-			"label": "Number of seconds into the round the Team Grenades panel should be visible (0 to disable; ignored when preferences.sidebar.teamGrenades.hideDuringRound is set to no)"
-		},
+    "preferences.sidebar.teamGrenades.activeIntoRoundSec": {
+      "type": "number",
+      "fallback": 5,
+      "section": "Preferences",
+      "label": "Сколько секунд показывать панель гранат"
+    },
 
-		"preferences.sidebar.teamEquipment.activeIntoRoundSec": {
-			"type": "number",
-			"fallback": 5,
-			"section": "Preferences",
-			"label": "Number of seconds into the round the Team Money and Equipment panel should be visible (0 to disable)"
-		},
+    "preferences.sidebar.teamEquipment.activeIntoRoundSec": {
+      "type": "number",
+      "fallback": 5,
+      "section": "Preferences",
+      "label": "Сколько секунд показывать панель денег и экипировки"
+    },
 
-		"preferences.seriesGraph.showMapForOnlyMatch": {
-			"type": "boolean",
-			"section": "Preferences",
-			"label": "Show map name and screenshot in the Series Graph, even if there is only a single match in the series"
-		},
+    "preferences.seriesGraph.showMapForOnlyMatch": {
+      "type": "boolean",
+      "section": "Preferences",
+      "label": "Показывать название карты и скриншот в графике серии, даже если в серии есть только один матч"
+    },
 
-		"preferences.topBar.clock.tenSecondsRedInFreezetime": {
-			"type": "boolean",
-			"section": "Preferences",
-			"label": "Show clock in red at less than 10 seconds in Freezetime"
-		},
+    "preferences.topBar.clock.tenSecondsRedInFreezetime": {
+      "type": "boolean",
+      "section": "Preferences",
+      "label": "Покрасить часы в красный цвет когда меньше 10 секунд во время таймфриза"
+    },
 
-		"preferences.topBar.clock.tenSecondsRedInTacticalTimeout": {
-			"type": "boolean",
-			"section": "Preferences",
-			"label": "Show clock in red at less than 10 seconds during Tactical Timeouts"
-		},
+    "preferences.topBar.clock.tenSecondsRedInTacticalTimeout": {
+      "type": "boolean",
+      "section": "Preferences",
+      "label": "Покрасить часы в красный цвет когда меньше 10 секунд во время тактических таймаутов"
+    },
 
-		"preferences.topBar.clock.tenSecondsRedInRoundRestartDelay": {
-			"type": "boolean",
-			"section": "Preferences",
-			"label": "Show clock in red at less than 10 seconds after round end"
-		},
+    "preferences.topBar.clock.tenSecondsRedInRoundRestartDelay": {
+      "type": "boolean",
+      "section": "Preferences",
+      "label": "Покрасить часы в красный цвет когда меньше 10 секунд после окончания раунда"
+    },
 
-		"preferences.topBar.matchPointRounds.showDuringRound": {
-			"type": "boolean",
-			"section": "Preferences",
-			"label": "Show \"First to X Rounds\" panel (visible during Overtime) during round (otherwise only in Freezetime)"
-		},
+    "preferences.topBar.matchPointRounds.showDuringRound": {
+      "type": "boolean",
+      "section": "Preferences",
+      "label": "Показывать \"First to X Rounds\" панель (видна во время овертайма) во время раунда (иначе только во время таймфриза)"
+    },
 
-		"preferences.topBar.team.roundWinnerPanel.showIntoFreezetimeSec": {
-			"type": "number",
-			"fallback": 0,
-			"section": "Preferences",
-			"label": "Number of seconds into the following round's freezetime the \"Wins the Round\" panel should be visible (0 to disable; 1000 to show during entire freezetime)"
-		},
+    "preferences.topBar.team.roundWinnerPanel.showIntoFreezetimeSec": {
+      "type": "number",
+      "fallback": 0,
+      "section": "Preferences",
+      "label": "Сколько секунд в следующем раунде показывать панель \"Выигрывает раунд\" (0 для отключения; 1000 для показа во время всего таймфриза)"
+    },
 
-		"preferences.focusedPlayer.maximumRedHealthPoints": {
-			"type": "number",
-			"section": "Preferences",
-			"label": "Maximum HP that will be highlighted in red (e.g. 20)"
-		},
+    "preferences.focusedPlayer.maximumRedHealthPoints": {
+      "type": "number",
+      "section": "Preferences",
+      "label": "Максимальное ХП, при котором будет подсвечено красным"
+    },
 
-		"css.base-scale-factor": {
-			"type": "text",
-			"section": "Style Overrides",
-			"label": "Base size that everything is sized relative to; e.g. `10px`"
-		},
+    "css.base-scale-factor": {
+      "type": "text",
+      "section": "Style Overrides",
+      "label": "Размер базового элемента, относительно которого все остальное растягивается; например `10px`"
+    },
 
-		"css.counter-terrorists-fill-rgb": {
-			"type": "color",
-			"section": "Style Overrides",
-			"label": "CT fill color (used for most CT-colored surfaces)"
-		},
+    "css.counter-terrorists-fill-rgb": {
+      "type": "color",
+      "section": "Style Overrides",
+      "label": "Цвет заливки CT (используется для большинства CT-цветных элементов)"
+    },
 
-		"css.counter-terrorists-border-rgb": {
-			"type": "color",
-			"section": "Style Overrides",
-			"label": "CT border color (used for small or thing CT-colored surfaces)"
-		},
+    "css.counter-terrorists-border-rgb": {
+      "type": "color",
+      "section": "Style Overrides",
+      "label": "Цвет обводки CT (используется для маленьких или небольших CT-цветных элементов)"
+    },
 
-		"css.counter-terrorists-text-rgb": {
-			"type": "color",
-			"section": "Style Overrides",
-			"label": "CT text color (used for CT-colored text)"
-		},
+    "css.counter-terrorists-text-rgb": {
+      "type": "color",
+      "section": "Style Overrides",
+      "label": "Цвет текста CT (используется для CT-цветного текста)"
+    },
 
-		"css.terrorists-fill-rgb": {
-			"type": "color",
-			"section": "Style Overrides",
-			"label": "T fill color (used for most T-colored surfaces)"
-		},
+    "css.terrorists-fill-rgb": {
+      "type": "color",
+      "section": "Style Overrides",
+      "label": "Цвет заливки T (используется для большинства T-цветных элементов)"
+    },
 
-		"css.terrorists-border-rgb": {
-			"type": "color",
-			"section": "Style Overrides",
-			"label": "T border color (used for small or thing T-colored surfaces)"
-		},
+    "css.terrorists-border-rgb": {
+      "type": "color",
+      "section": "Style Overrides",
+      "label": "Цвет обводки T (используется для маленьких или небольших T-цветных элементов)"
+    },
 
-		"css.terrorists-text-rgb": {
-			"type": "color",
-			"section": "Style Overrides",
-			"label": "T text color (used for T-colored text)"
-		},
+    "css.terrorists-text-rgb": {
+      "type": "color",
+      "section": "Style Overrides",
+      "label": "Цвет текста T (используется для T-цветного текста)"
+    },
 
-		"css.primary-font-family": {
-			"type": "string",
-			"section": "Style Overrides",
-			"label": "Font"
-		}
-	},
+    "css.primary-font-family": {
+      "type": "string",
+      "section": "Style Overrides",
+      "label": "Шрифт"
+    }
+  },
 
-	"optionSectionDescriptions": {
-		"Style Overrides": "NB: To apply changes, click Save, then Force HUD Refresh."
-	}
+  "optionSectionDescriptions": {
+    "Style Overrides": "NB: Чтобы применить, нажмите Сохранить, затем Обновить HUD."
+  }
 }

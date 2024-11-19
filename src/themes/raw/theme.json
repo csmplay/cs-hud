@@ -1,55 +1,55 @@
 {
-	"options": {
-		"preferences.isCsgo": {
-			"type": "boolean",
-			"section": "Preferences",
-			"label": "Set this to true if you're using CS:GO instead of CS2"
-		},
+  "options": {
+    "preferences.isCsgo": {
+      "type": "boolean",
+      "section": "Preferences",
+      "label": "Включите если вы используете CS:GO вместо CS2"
+    },
 
-		"preferences.minimumGoodKdRatio": {
-			"type": "number",
-			"section": "Preferences",
-			"label": "Lowest K/D ratio that counts as \"good\" and can be highlighted in green",
-			"fallback": "1.001"
-		},
+    "preferences.minimumGoodKdRatio": {
+      "type": "number",
+      "section": "Preferences",
+      "label": "Минимально \"хорошее\" значение KD для отображения в зеленом цвете",
+      "fallback": "1.001"
+    },
 
-		"preferences.maximumBadKdRatio": {
-			"type": "number",
-			"section": "Preferences",
-			"label": "Highest K/D ratio that counts as \"bad\" and can be highlighted in red",
-			"fallback": "0.999"
-		},
+    "preferences.maximumBadKdRatio": {
+      "type": "number",
+      "section": "Preferences",
+      "label": "Максимально \"плохое\" значение KD для отображения в красном цвете",
+      "fallback": "0.999"
+    },
 
-		"cvars.mp_maxrounds": {
-			"type": "number",
-			"fallback": 24,
-			"section": "Cvars",
-			"label": "Value of mp_maxrounds, i.e. the maximum number of rounds played in regulation"
-		},
+    "cvars.mp_maxrounds": {
+      "type": "number",
+      "fallback": 30,
+      "section": "Cvars",
+      "label": "Значение mp_maxrounds (максимальное количество раундов)"
+    },
 
-		"cvars.mp_overtime_maxrounds": {
-			"type": "number",
-			"fallback": 6,
-			"section": "Cvars",
-			"label": "Value of mp_overtime_maxrounds, i.e. the maximum number of rounds played per overtime"
-		},
+    "cvars.mp_overtime_maxrounds": {
+      "type": "number",
+      "fallback": 6,
+      "section": "Cvars",
+      "label": "Значение mp_overtime_maxrounds (максимальное количество раундов в овертайме)"
+    },
 
-		"teams.teamNameOverrides": {
-			"type": "text",
-			"section": "Teams",
-			"label": "List of SteamID64s and team names for overrides; see https://github.com/csmplay/cs-hud/blob/master/docs/team-name-overrides.md"
-		},
+    "teams.teamNameOverrides": {
+      "type": "text",
+      "section": "Teams",
+      "label": "Подмена названий команд https://github.com/csmplay/cs-hud/blob/master/docs/team-name-overrides.md"
+    },
 
-		"teams.playerNameOverrides": {
-			"type": "text",
-			"section": "Teams",
-			"label": "List of SteamID64s and their player name for overrides; see https://github.com/csmplay/cs-hud/blob/master/docs/player-name-overrides.md"
-		},
+    "teams.playerNameOverrides": {
+      "type": "text",
+      "section": "Teams",
+      "label": "Подмена ников игроков https://github.com/csmplay/cs-hud/blob/master/docs/player-name-overrides.md"
+    },
 
-		"teams.hiddenPlayers": {
-			"type": "text",
-			"section": "Teams",
-			"label": "List of names or SteamID64s of players that should not be shown in the HUD (e.g. coaches); see https://github.com/csmplay/cs-hud/blob/master/docs/hiding-players.md"
-		}
-	}
+    "teams.hiddenPlayers": {
+      "type": "text",
+      "section": "Teams",
+      "label": "Скрыть игроков https://github.com/csmplay/cs-hud/blob/master/docs/hiding-players.md"
+    }
+  }
 }
