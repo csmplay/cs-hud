@@ -36,7 +36,7 @@
 	--round-graph-margin-to-sidebars: var(--series-graph-margin-to-sidebars);
 
 	/* Radar */
-	--radar-width: 25%;
+	--radar-width: 20%;
 	--radar-inferno-flame-diameter: calc(14 / 1024 * 100%);
 	--radar-smoke-diameter: calc(57.6 / 1024 * 100%);
 
