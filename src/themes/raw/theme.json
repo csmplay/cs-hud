@@ -22,7 +22,7 @@
 
     "cvars.mp_maxrounds": {
       "type": "number",
-      "fallback": 30,
+      "fallback": 24,
       "section": "Cvars",
       "label": "Значение mp_maxrounds (максимальное количество раундов)"
     },
