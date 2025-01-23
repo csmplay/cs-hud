@@ -1430,9 +1430,9 @@
     "radarImageTransparentBackgrond": true,
     "radarImageUrl": "/hud/img/radars/simpleradar/de_train.webp",
 
-    "pos_x": -2477,
-    "pos_y": 2392,
-    "scale": 4.7,
+    "pos_x": -2308,
+    "pos_y": 2078,
+    "scale": 4.082077,
 
     "CTSpawn_x": 0.86,
     "CTSpawn_y": 0.77,
