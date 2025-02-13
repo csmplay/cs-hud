@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"license": "ISC",
+	"license": "MIT",
 	"type": "module",
 	"main": "src/server/index.js",
 	"scripts": {
