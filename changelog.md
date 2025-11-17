@@ -8,6 +8,45 @@ This project does not adhere to Semantic Versioning.
 ## [Unreleased]
 
 
+## [2.7.0] - 2025-09-26
+### Added
+* Added `teams.hideCoachesByName` option (disabled by default), which hides any player that has the word `coach` in their name
+
+
+## [2.6.2] - 2025-07-05
+### Fixed
+* Fixed series graph sometimes not disappearing when only one map is set
+* Fixed long nicknames sometimes wrapping into multiple lines
+
+### Changed
+* Updated several dependencies
+* Disabled compression for server binaries
+
+
+## [2.6.1] - 2025-01-19
+### Fixed
+* Fixed pre-built Windows binary immediately crashing on startup
+
+
+## [2.6.0] - 2025-01-18
+### Added
+* When a map screenshot is not found or fails to load, series graph will now show a fallback image
+
+### Fixed
+* Null-ish values (e.g. the number `0` for 16-0 matches) will now be saved when entered on the config page
+
+### Changed
+* Updated various dependencies (node to v22, electron to v34)
+* Switched to @yao-pkg/pkg for building pre-packaged binaries
+* Map screenshots and radars are now saved in PNG format instead of WebP
+* Updated map screenshots and radars to CS2
+* Changed filenames for server and overlay binaries; server is now `cs-hud-server-linux`/`cs-hud-server-win.exe` (previously `cs-hud-linux`/`cs-hud-win.exe`), overlay is now in `cs-hud-overlay-linux-x64.tar.gz`/`cs-hud-overlay-win32-x64.zip` (previously `cs-hud-linux-x64.tar.gz`/`cs-hud-win32-x64.zip`)
+
+### Removed
+* Removed map screenshots from CS:GO; now included by default are only map screenshots for maps that were officially included in the game as of 2025-01-18
+* Removed some legacy radars (primarily outdated Simple Radar radars); all maps that used to be included should still be included, but some alternative variants of their radars may not be included anymore
+
+
 ## [2.5.0] - 2024-03-02
 ### Added
 * Added fallback for wrong GSI-reported inferno flame positions

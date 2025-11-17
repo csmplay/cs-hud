@@ -2,7 +2,7 @@ import http from 'http'
 
 import bodyParser from 'koa-bodyparser'
 import Koa from 'koa'
-import KoaRouter from 'koa-router'
+import KoaRouter from '@koa/router'
 import KoaCompress from 'koa-compress'
 
 import { initSettings, getSettings } from './settings.js'
@@ -14,6 +14,8 @@ import { registerLicensesRoutes } from './licenses.js'
 import { registerRadarRoutes } from './radar.js'
 import { registerVersionRoutes } from './version.js'
 import { Websocket } from './websocket.js'
+
+Error.stackTraceLimit = 64
 
 const run = async () => {
 	await initSettings()
@@ -49,7 +51,7 @@ const run = async () => {
 	app.use(router.allowedMethods())
 
 	server.listen(port, host)
-	console.info(`CS HUD active at http://${host}:${port}. Press Ctrl+C to quit.`)
+	console.info(`cs-hud active at http://${host}:${port}. Press Ctrl+C to quit.`)
 }
 
 run().then(() => {})

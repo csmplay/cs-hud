@@ -7,13 +7,20 @@
 yarn --frozen-lockfile
 yarn licenses generate-disclaimer > assets/licenses.txt
 npx esbuild src/server/index.js --bundle --platform=node --outfile=cs-hud.js
-npx pkg --config build/pkg.json cs-hud.js # --debug
+
+npx pkg \
+	--config build/pkg.json \
+	--no-bytecode \
+	--public \
+	--public-packages '*' \
+	cs-hud.js \
+	# --debug
 
 # build Electron-based wrappers
 cd src/electron
 yarn --frozen-lockfile
 
-node write-package-json.mjs cs-hud hud.js
+node write-package-json.mjs cs-hud-overlay hud.js
 yarn electron-forge package -p linux
 yarn electron-forge package -p win32
 

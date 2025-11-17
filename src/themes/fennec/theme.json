@@ -228,7 +228,7 @@
     "preferences.sidebar.teamGrenades.hideDuringRound": {
       "type": "boolean",
       "section": "Preferences",
-      "label": "Скрыть панель гранат во время раунда (если нет, показывается во время таймфриза, и первые несколько секунд раунда"
+      "label": "Скрыть панель гранат во время раунда (если нет, показывается во время таймфриза, и первые несколько секунд раунда)"
     },
 
     "preferences.sidebar.teamGrenades.activeIntoRoundSec": {

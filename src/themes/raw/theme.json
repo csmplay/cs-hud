@@ -50,6 +50,12 @@
       "type": "text",
       "section": "Teams",
       "label": "Скрыть игроков https://github.com/csmplay/cs-hud/blob/master/docs/hiding-players.md"
-    }
-  }
+    },
+
+		"teams.hideCoachesByName": {
+			"type": "boolean",
+			"section": "Teams",
+			"label": "Скрыть игроков со словом \"coach\" в нике https://github.com/csmplay/cs-hud/blob/master/docs/hiding-players.md"
+		}
+	}
 }
